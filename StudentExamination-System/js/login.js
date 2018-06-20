@@ -1,4 +1,8 @@
 ﻿$(function () {
+    //加载前端验证
+    login_verify();
+    register_verify();
+
     //点击选择面板
     var i = 0;
     $(".select_btn").each(function () {
@@ -33,6 +37,5 @@
         $(".information")[this.index].style.display = "block";
     })
 
-    //验证信息
     
 })
